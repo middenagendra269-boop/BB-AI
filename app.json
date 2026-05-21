@@ -6,6 +6,11 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "bb-ai-jyiluaw57hsascilddwce"
+      }
+    },
     "android": {
       "package": "com.bobby.bbai"
     },

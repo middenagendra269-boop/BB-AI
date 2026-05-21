@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, ScrollView, StyleSheet, ActivityIndicator, KeyboardAvoidingView, Platform } from 'react-native';
 
-const GROQ_KEY = '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';
+const GROQ_KEY = process.env.GROQ_API_KEY;
 
 export default function App() {
   const [input, setInput] = useState('');

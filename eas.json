@@ -1,17 +1,12 @@
 {
-  "cli": {
-    "version": ">= 5.9.1"
-  },
+  "cli": { "version": ">= 5.9.1" },
   "build": {
     "preview": {
-      "android": {
-        "buildType": "apk"
+      "android": { "buildType": "apk" },
+      "env": {
+        "GROQ_API_KEY": "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"
       }
     },
-    "production": {
-      "android": {
-        "buildType": "apk"
-      }
-    }
+    "production": { "android": { "buildType": "apk" } }
   }
 }

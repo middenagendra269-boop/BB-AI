@@ -7,18 +7,13 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "extra": {
-  "eas": {
-    "projectId": "beac4e61-fe11-42d8-872b-5475f6eb8429"
-  }
-    }
+      "eas": {
+        "projectId": "beac4e61-fe11-42d8-872b-5475f6eb8429"
       }
     },
     "android": {
       "package": "com.bobby.bbai",
       "permissions": ["INTERNET"]
-    },
-    "web": {
-      "bundler": "metro"
     }
   }
 }

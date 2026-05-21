@@ -4,29 +4,13 @@
     "slug": "bb-ai-jyiluaw57hsascilddwce",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "android": {
-      "package": "com.bobbymidde.bbai",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "package": "com.bobby.bbai"
     },
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-        "extra": {
-      "eas": {
-        "projectId": "8c7166ad-3d8e-454f-a46c-7c5b4f41553c"
-      }
-        }
+    "web": {
+      "bundler": "metro"
+    }
   }
 }

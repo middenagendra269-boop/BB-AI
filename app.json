@@ -12,7 +12,8 @@
       }
     },
     "android": {
-      "package": "com.bobby.bbai"
+      "package": "com.bobby.bbai",
+      "permissions": ["INTERNET"]
     },
     "web": {
       "bundler": "metro"

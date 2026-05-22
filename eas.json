@@ -4,13 +4,26 @@
     "appVersionSource": "remote"
   },
   "build": {
-    "preview": {
-      "android": {
-        "buildType": "apk"
-      },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_GROQ_API_KEY": "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"
+        "EXPO_PUBLIC_OPENAI_API_KEY": "sk-proj-qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_OPENAI_API_KEY": "sk-proj-qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_OPENAI_API_KEY": "sk-proj-qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
       }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }

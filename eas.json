@@ -6,24 +6,21 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "EXPO_PUBLIC_OPENAI_API_KEY": "sk-proj-qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
-      }
+      "distribution": "internal"
     },
     "preview": {
+      "android": { 
+        "buildType": "apk" 
+      },
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_OPENAI_API_KEY": "sk-proj-qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
+        "EXPO_PUBLIC_OPENAI_API_KEY": "NEE_KOTHA_KEY_PETTU"
       }
     },
     "production": {
-      "env": {
-        "EXPO_PUBLIC_OPENAI_API_KEY": "sk-proj-qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
+      "android": { 
+        "buildType": "apk" 
       }
     }
-  },
-  "submit": {
-    "production": {}
   }
 }

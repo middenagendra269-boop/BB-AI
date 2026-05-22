@@ -12,10 +12,7 @@
       "android": { 
         "buildType": "apk" 
       },
-      "distribution": "internal",
-      "env": {
-        "EXPO_PUBLIC_OPENAI_API_KEY": "NEE_KOTHA_KEY_PETTU"
-      }
+      "distribution": "internal"
     },
     "production": {
       "android": { 

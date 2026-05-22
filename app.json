@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "BB-AI",
-    "slug": "bb-ai-jyliuaw57hsasciliddwce",
+    "slug": "bb-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -16,6 +16,11 @@
       "package": "com.bobby.bbai",
       "versionCode": 1,
       "permissions": ["INTERNET"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "beac4e61-fe11-42d8-872b-5475f6eb8429"
+      }
     }
   }
 }

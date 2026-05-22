@@ -6,7 +6,7 @@ import {
 import { StatusBar } from 'expo-status-bar';
 
 // FIX: EXPO_PUBLIC_ prefix mandatory for EAS Build
-const GROQ_KEY = process.env.EXPO_PUBLIC_GROQ_KEY;
+const GROQ_KEY = process.env.GROQ_KEY;
 
 export default function App() {
   const [input, setInput] = useState('');

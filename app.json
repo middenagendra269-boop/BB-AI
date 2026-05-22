@@ -1,14 +1,26 @@
 {
   "expo": {
     "name": "BB-AI",
-    "slug": "bb-ai-jyliuaw57hsascilidd",
+    "slug": "bb-ai-jyliuaw57hssascildd",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "android": {
       "package": "com.bobby.bbai",
+      "versionCode": 1,
       "permissions": ["INTERNET"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c7166ad-3d8e-454f-a46c-7c5b4f41553c"
+      }
     }
   }
 }
